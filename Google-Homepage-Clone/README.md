@@ -1,40 +1,74 @@
-# Google Homepage Clone — Week 1 Assignment
+# Google Homepage Clone
 
-A student-made, Google-inspired homepage created for a one-month mentorship program. This is an educational visual clone, not an official Google service. It does not perform real web searches and does not collect user data.
+A beginner-friendly Google Homepage Clone built using HTML5 and CSS3. This project recreates the basic layout and appearance of Google's homepage as part of my frontend development learning journey.
 
-## Project files
+## Features
 
-- `index.html` — semantic page structure, navigation, search form, buttons, and footer.
-- `styles.css` — page styling, layout, typography, focus states, and responsive breakpoints.
-- `assets/` — reserved for optional local assets; this version uses inline SVG icons and CSS text for the logo.
+- Google-inspired homepage design
+- Navigation bar with links
+- Centered Google logo
+- Rounded search bar
+- Search and microphone icons
+- Search buttons
+- Footer with useful links
+- Responsive layout for different screen sizes
+- Basic accessibility features and keyboard focus styles
 
-## How to open
+## Technologies Used
 
-1. Extract the project folder if it is in a ZIP file.
-2. Open `index.html` in a modern browser such as Chrome, Firefox, or Edge.
-3. Resize the browser or use Developer Tools' device toolbar to check desktop and mobile layouts.
+- **HTML5** — For structuring the webpage
+- **CSS3** — For styling and layout
+- **Material Symbols** — For icons
 
-No build tools or dependencies are required.
+## Project Structure
 
-## Layout methods used
+```text
+Google-Homepage-Clone/
+├── assets/
+│   ├── google.png
+│   └── googlelogo.jpg
+├── index.html
+├── style.css
+└── README.md
+```
 
-- **Flexbox** for the top navigation, page shell, and footer link groups.
-- **CSS Grid** for the decorative apps icon.
-- **Media queries** to adapt spacing and controls for tablet/mobile-sized screens.
-- **CSS custom properties** for reusable colours.
-- Semantic HTML elements (`header`, `nav`, `main`, `form`, and `footer`) to make the structure easier to understand.
+## How to Run Locally
 
-## Accessibility
+1. Clone this repository:
 
-- The search field has a visually hidden label.
-- Decorative SVG icons are hidden from assistive technology.
-- Links, buttons, and form controls have visible keyboard focus states.
-- The layout supports reduced-motion preferences and narrow screens.
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
 
-## One challenge solved
+2. Navigate to the project folder:
 
-Keeping the footer near the bottom on tall screens while allowing the main search section to remain flexible. The page shell uses a column flex layout with the main content set to `flex: 1`, rather than relying on fixed pixel positioning. Media queries also reduce gaps and hide one optional icon on very narrow screens to avoid horizontal overflow.
+   ```bash
+   cd Google-Homepage-Clone
+   ```
 
-## Scope note
+3. Open `index.html` in your web browser.
 
-The search form is intentionally a demo. Submitting it shows a message instead of sending a query to a search engine. No sign-in, authentication, or Google account functionality is included.
+You can also open the project folder in Visual Studio Code and use the Live Server extension to preview the webpage.
+
+## Learning Objectives
+
+Through this project, I practiced:
+
+- Writing semantic HTML5
+- Styling webpages with CSS3
+- Using Flexbox for layout alignment
+- Creating a responsive design with media queries
+- Working with images and icons
+- Applying basic accessibility techniques
+
+## Project Limitations
+
+This project is a visual homepage clone created for learning purposes. The search bar, microphone icon, and buttons may not provide the same functionality as Google's actual services.
+
+## Disclaimer
+
+This project is created for educational purposes only. Google is a trademark of Google LLC. This project is not affiliated with, sponsored by, or endorsed by Google.
+
+## Author
+
+Created by **Dev-CodeWi**
