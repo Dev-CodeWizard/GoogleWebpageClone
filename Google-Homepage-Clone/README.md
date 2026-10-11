@@ -71,4 +71,4 @@ This project is created for educational purposes only. Google is a trademark of 
 
 ## Author
 
-Created by **Dev-CodeWi**
+Created by **Dev-CodeWizard**
